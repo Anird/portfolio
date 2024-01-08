@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #130816;
+
+}
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100% ;
+padding: 20px 10% ;
+background: #3B2B68;
+display: flex;
+justify-content:space-between;
+z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+}
+.navbar a {
+    
+    font-size: 15px;
+    color: #fff;
+    text-decoration:none;
+    font-weight: 400;
+    margin-left: 45px;
+
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.navbar a:hover {color: #000;
+}
+.navbar a:hover :active{
+    color: aquamarine;
+}
+
+
+
