@@ -343,6 +343,10 @@
     margin: 18px;
     text-align: center;
 }
+.skill :hover{
+    background-color: #161922;
+    color: #000;
+}
 
 
 .s-1 {
@@ -400,9 +404,7 @@
     transition: ease-in;
 }
 
-.work:hover .img {
-    transform: scale(1.1);
-}
+
 /* contact */
 .conatct{
     width: 100%;
@@ -852,8 +854,8 @@ footer span {
     }
 
     .img_home {
-        width: 300px;
-        margin-left: 2px;
+        width: 352px;
+        margin-left: 30px;
     }
 
     .about {
