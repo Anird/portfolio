@@ -12,6 +12,7 @@
 
 
 
+
 .m-heading {
     color: #fff;
     font-size: 35px;
@@ -108,11 +109,11 @@
 
 }
 
-.bttn {
+/* .bttn {
     align-items: center;
     margin-top: 20px;
    
-}
+} */
 
 .mail {
 
@@ -250,9 +251,7 @@
     text-align: center;
 }
 
-.service {
-    padding-top: 50px;
-}
+
 
 .service_container {
     padding: 60px 0px;
