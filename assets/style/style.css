@@ -104,6 +104,8 @@
 .home .btn:hover {
     background-color: #161922;
     color: #fff;
+    border: 1px solid #fff;
+
 }
 
 .bttn {
@@ -198,7 +200,7 @@
 
 
 
-.about .bttn {
+.about .btn {
     background-color: #E33954;
     color: #fff;
     padding: 10px 30px;
@@ -209,9 +211,11 @@
     
 }
 
-.about .bttn:hover {
+.about .btn:hover {
     background-color: #161922;
     color: #fff;
+    border: 1px solid #fff;
+
 }
 
 
@@ -449,24 +453,25 @@
     width: 49%;
 }
 
-.bn {
-    
+.contact .btn {
     background-color: #E33954;
     color: #fff;
-    padding: 8px 40px;
+    padding: 10px 30px;
     border-radius: 10px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
-
+    
 }
 
-.bn :hover {
+.contact .btn:hover {
     background-color: #161922;
     color: #fff;
-
+    border: 1px solid #fff;
 }
+
 .buton{
+    
     padding: 40px;
 }
 
@@ -854,8 +859,8 @@ footer span {
     }
 
     .img_home {
-        width: 352px;
-        margin-left: 30px;
+        width: 380px;
+        margin-left: 11px;
     }
 
     .about {
