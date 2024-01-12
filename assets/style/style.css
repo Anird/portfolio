@@ -385,9 +385,6 @@
     font-size: 25px;
     color: #E33954;
     font-family: 'Poppins', sans-serif;
-
-
-
 }
 
 .work-list {
@@ -417,11 +414,9 @@
 }
 
 .contact .heading h2 {
-    font-size: 30px;
-    font-weight: 00;
-    margin: 0;
-    padding: 0;
+    font-size: 25px;
     color: #E33954;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
 
 
@@ -442,10 +437,10 @@
 }
 
 .contact .form-control {
-    padding: 30px;
+    padding: 16px;
     font-size: 13px;
     margin-bottom: 10px;
-    background: #f9f9f9;
+    background: #fff;
     border: 0;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
@@ -504,7 +499,7 @@
 .contact .btn {
     background-color: #E33954;
     color: #fff;
-    padding: 8px 15px;
+    padding: 10px 15px;
     border-radius: 10px;
     font-weight: 300;
     font-size: 18px;
@@ -518,6 +513,9 @@
     color: #fff;
     border: 1px solid #fff;
 
+}
+.buton{
+    padding-top: 30px;
 }
 
 
@@ -1126,68 +1124,94 @@ footer span {
         transition: ease-in;
     }
 
-    .contact {
-        width: 100%;
-
-    }
-
-    .contact h2 {
-        font-size: 22px;
+    .contact .heading h2 {
+        font-size: 15px;
         color: #E33954;
-        font-weight: 600;
-        margin-top: 20px;
-        text-align: center;
+        font-weight: 500;
         font-family: 'Poppins', sans-serif;
-
     }
-
-    .contact form {
-        margin: 1rem auto;
-        text-align: center;
-        margin-bottom: 2rem;
+    .contact .heading p {
+    
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #fff;
+        margin: 20px 0 60px;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    
     }
-
-    .contact form .input-box {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .contact form .input-box input,
-    .contact form textarea {
-        width: 100%;
-        padding: 8px;
-        font-size: 16px;
-
-        color: #000;
-        background-color: #fff;
+    
+    .contact .form-control {
+        padding: 30px;
+        font-size: 13px;
+        margin-bottom: 10px;
+        background: #f9f9f9;
+        border: 0;
         border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+    
     }
-
-    .contact form .input-box input {
-        width: 109%;
+    
+    
+    
+    .contact .title h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    
     }
-
-    .bn {
-
+    
+    .contact .title p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.6;
+        margin: 0 0 40px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .contact .content .info {
+        margin-top: 30px;
+    }
+    
+    .contact .content .info i {
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        margin-right: 20px;
+        text-align: center;
+        width: 20px;
+    }
+    
+    .contact .content .info h4 {
+        font-size: 13px;
+        line-height: 1.4;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .contact .content .info h4 span {
+        font-size: 13px;
+        font-weight: 300;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .contact .btn {
         background-color: #E33954;
         color: #fff;
-        padding: 8px 16px;
+        padding: 8px 15px;
         border-radius: 10px;
-        font-weight: 400;
-        font-size: 16px;
+        font-weight: 300;
+        font-size: 18px;
         font-family: 'Poppins', sans-serif;
-
-    }
-
-    .bn :hover {
-        background-color: #161922;
-        color: #fff;
-
-    }
-
-    .buton {
-        padding: 10px;
+        
+    
     }
 
     footer p {
