@@ -72,7 +72,8 @@
     margin-bottom: -0.5rem;
 
 }
-.home h3{
+
+.home h3 {
     color: #fff;
     font-size: 38px;
 }
@@ -209,7 +210,7 @@
     font-weight: 300;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .about .btn:hover {
@@ -228,7 +229,8 @@
 
 
 }
-.service{
+
+.service {
     width: 100%;
 }
 
@@ -346,7 +348,8 @@
     margin: 18px;
     text-align: center;
 }
-.skill :hover{
+
+.skill :hover {
     background-color: #161922;
     color: #000;
 }
@@ -361,7 +364,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    
+
 }
 
 .skill {
@@ -409,70 +412,115 @@
 
 
 /* contact */
-.conatct{
-    width: 100%;
+.contact {
+    padding: 130px 0;
+}
+
+.contact .heading h2 {
+    font-size: 30px;
+    font-weight: 00;
+    margin: 0;
+    padding: 0;
+    color: #E33954;
+    font-family: 'Poppins', sans-serif;
+
 
 }
-.contact h2 {
-    font-size: 25px;
-    color: #E33954;
-    font-weight: 600;
-    margin-top: 20px;
-    text-align: center;
+
+
+
+.contact .heading p {
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #fff;
+    margin: 20px 0 60px;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 
 }
 
-.contact form {
-    max-width: 70rem;
-    margin: 1rem auto;
+.contact .form-control {
+    padding: 30px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0 0 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact .content .info {
+    margin-top: 30px;
+}
+
+.contact .content .info i {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    margin-right: 20px;
     text-align: center;
-    margin-bottom: 3rem;
+    width: 20px;
 }
 
-.contact form .input-box {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.contact .content .info h4 {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.contact form .input-box input,
-.contact form textarea {
-    width: 100%;
-    padding: 13px;
-    font-size: 20px;
+.contact .content .info h4 span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
 
-    color: #000;
-    background-color: #fff;
-    border-radius: 15px;
-    margin: 10px 0;
 }
-
-.contact form .input-box input {
-    width: 49%;
-}
-
 .contact .btn {
     background-color: #E33954;
     color: #fff;
-    padding: 10px 30px;
+    padding: 8px 15px;
     border-radius: 10px;
     font-weight: 300;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     
+
 }
 
 .contact .btn:hover {
     background-color: #161922;
     color: #fff;
     border: 1px solid #fff;
+
 }
 
-.buton{
-    
-    padding: 40px;
-}
+
 
 .footer_div {
     text-align: center;
@@ -504,29 +552,32 @@ footer span {
 
     }
 
-.img-col{
-    order:1;
-}
-.cntnt-col{
-    order: 2;
-}
+    .img-col {
+        order: 1;
+    }
+
+    .cntnt-col {
+        order: 2;
+    }
 
     .h1-text {
-       
+
         text-transform: uppercase;
         font-size: 30px;
         margin-bottom: -0.5rem;
-     
+
 
     }
-.home h3{
-    color: #fff;
-    font-size: 32px;
-}
+
+    .home h3 {
+        color: #fff;
+        font-size: 32px;
+    }
+
     .home_para {
         color: #fff;
         font-size: 17px;
- 
+
 
     }
 
@@ -543,7 +594,7 @@ footer span {
 
     }
 
- 
+
 
     .bttn {
         align-items: center;
@@ -558,7 +609,7 @@ footer span {
         padding-right: 10px;
     }
 
-   
+
 
 
 
@@ -570,11 +621,13 @@ footer span {
     .img_home {
         width: 500px;
     }
-    .img-div{
+
+    .img-div {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .about {
         margin-bottom: 60px;
         width: 100%;
@@ -604,14 +657,14 @@ footer span {
     .about-sec1 {
         color: #fff;
         font-size: 24px;
-      
+
     }
 
 
     .about-sec1 p {
         padding: 15px 0 30px 0;
         font-size: 16px;
-     
+
 
     }
 
@@ -627,18 +680,18 @@ footer span {
 
     .txt {
         font-size: 23px;
-       
+
 
 
     }
 
     .service h2 {
         font-size: 20px;
-        
+
     }
 
     .service_para {
-       
+
         font-size: 16px;
     }
 
@@ -739,7 +792,7 @@ footer span {
         margin: 10px;
         width: 100%;
         border-radius: 15px;
-      
+
     }
 
     .skill {
@@ -755,7 +808,7 @@ footer span {
         margin-bottom: 30px;
         color: #fff;
         text-align: center;
-    
+
 
 
     }
@@ -780,12 +833,13 @@ footer span {
     }
 
 
-    footer p{
+    footer p {
         font-size: 18px;
     }
 
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
     .home {
         width: 100%;
         height: auto;
@@ -797,13 +851,13 @@ footer span {
         height: auto;
     }
 
-    .home h3{
+    .home h3 {
         font-size: 27px;
         color: #fff;
     }
 
     .h1-text {
-       
+
         text-transform: uppercase;
         font-size: 30px;
         margin-bottom: -0.5rem;
@@ -813,14 +867,11 @@ footer span {
     .home_para {
         color: #fff;
         font-size: 14px;
- 
+
 
     }
 
-    .home.btn {
-     
-
-    }
+    .home.btn {}
 
     .home .btn {
         padding: 8px 15px;
@@ -828,7 +879,7 @@ footer span {
 
     }
 
- 
+
 
     .bttn {
         align-items: left;
@@ -841,7 +892,7 @@ footer span {
         font-size: 26px;
         padding-top: 20px;
         padding-right: 10px;
-    
+
     }
 
     .mail:hover {
@@ -889,7 +940,7 @@ footer span {
     .about-sec1 {
         color: #fff;
         font-size: 24px;
-      
+
     }
 
 
@@ -909,9 +960,9 @@ footer span {
         font-weight: 300;
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
-        
+
     }
-    
+
 
     .txt {
         font-size: 14px;
@@ -920,11 +971,11 @@ footer span {
 
     .service h2 {
         font-size: 20px;
-        
+
     }
 
     .service_para {
-       
+
         font-size: 16px;
     }
 
@@ -950,86 +1001,87 @@ footer span {
         margin: 8px;
         text-align: center;
     }
+
     .cs {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .js {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .ai {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
-    
+
     }
-    
+
     .ps {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
-    
+
     }
-    
+
     .fg {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .tw {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .bs {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .wpr {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .jq {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .sop {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
+
     .gh {
         width: 25px;
         height: 25px;
         margin: 8px;
         text-align: center;
     }
-    
-    
+
+
 
 
     .s-1 {
@@ -1037,7 +1089,7 @@ footer span {
         margin: 10px;
         width: 100%;
         border-radius: 15px;
-      
+
     }
 
     .skill {
@@ -1074,10 +1126,11 @@ footer span {
         transition: ease-in;
     }
 
-    .contact{
+    .contact {
         width: 100%;
-    
+
     }
+
     .contact h2 {
         font-size: 22px;
         color: #E33954;
@@ -1085,38 +1138,38 @@ footer span {
         margin-top: 20px;
         text-align: center;
         font-family: 'Poppins', sans-serif;
-    
+
     }
-    
+
     .contact form {
         margin: 1rem auto;
         text-align: center;
         margin-bottom: 2rem;
     }
-    
+
     .contact form .input-box {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
     .contact form .input-box input,
     .contact form textarea {
         width: 100%;
         padding: 8px;
         font-size: 16px;
-    
+
         color: #000;
         background-color: #fff;
         border-radius: 10px;
     }
-    
+
     .contact form .input-box input {
         width: 109%;
     }
-    
+
     .bn {
-        
+
         background-color: #E33954;
         color: #fff;
         padding: 8px 16px;
@@ -1124,29 +1177,32 @@ footer span {
         font-weight: 400;
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
-    
+
     }
-    
+
     .bn :hover {
         background-color: #161922;
         color: #fff;
-    
+
     }
-    .buton{
+
+    .buton {
         padding: 10px;
     }
-    footer p{
+
+    footer p {
         font-size: 16px;
     }
+
     .footer_div {
         text-align: center;
         color: #fff;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     footer span {
         color: #E33954;
         font-family: 'Poppins', sans-serif;
     }
-    
+
 }
