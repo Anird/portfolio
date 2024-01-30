@@ -50,6 +50,7 @@
     overflow: hidden;
     margin-bottom: 0px;
     border-bottom: 1px solid #161922;
+    overflow: hidden;
 }
 
 .home_container {
@@ -146,6 +147,8 @@
     width: 100%;
     height: auto;
     padding: 80px 0px;
+    overflow: hidden;
+
 }
 
 .about h2 {
@@ -228,6 +231,8 @@
 
 .service {
     width: 100%;
+    overflow: hidden;
+
 }
 
 .service h2 {
@@ -371,6 +376,8 @@
 
 .portfolio {
     padding: 80px;
+    overflow: hidden;
+
 }
 .nav-pills .nav-link{
 background-color: #fff;
@@ -425,6 +432,8 @@ color: #E33954 !important;
 /* contact */
 .contact {
     padding: 50px 0;
+    overflow: hidden;
+
 }
 
 .contact .heading h2 {
